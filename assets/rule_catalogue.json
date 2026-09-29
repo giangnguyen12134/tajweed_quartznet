@@ -1,0 +1,206 @@
+[
+ {
+  "id": "allah_dagger_alef",
+  "name": "Allah Dagger Alef",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "hamza_wasl_silent",
+  "name": "Hamza Wasl Silent",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "hamza_wasl_vowel",
+  "name": "Hamza Wasl Vowel",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_bila_ghunnah_noon",
+  "name": "Idgham Bila Ghunnah Noon",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_bila_ghunnah_tanween",
+  "name": "Idgham Bila Ghunnah Tanween",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_ghunnah_noon",
+  "name": "Idgham Ghunnah Noon",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_ghunnah_tanween",
+  "name": "Idgham Ghunnah Tanween",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_mutajanisayn_kamil",
+  "name": "Idgham Mutajanisayn Kamil",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_mutajanisayn_naqis",
+  "name": "Idgham Mutajanisayn Naqis",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_mutamathilayn",
+  "name": "Idgham Mutamathilayn",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_mutaqaribayn",
+  "name": "Idgham Mutaqaribayn",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "idgham_shafawi",
+  "name": "Idgham Shafawi",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "ikhfaa_noon",
+  "name": "Ikhfaa Noon",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "ikhfaa_shafawi",
+  "name": "Ikhfaa Shafawi",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "ikhfaa_tanween",
+  "name": "Ikhfaa Tanween",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "iltiqaa",
+  "name": "Iltiqaa",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "iltiqaa_kasra",
+  "name": "Iltiqaa Kasra",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "iqlab_noon",
+  "name": "Iqlab Noon",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "iqlab_tanween",
+  "name": "Iqlab Tanween",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "lam_shamsiyah",
+  "name": "Lam Shamsiyah",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_arid_lissukun",
+  "name": "Madd Arid Lissukun",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_iwad",
+  "name": "Madd Iwad",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_jaiz_munfasil",
+  "name": "Madd Jaiz Munfasil",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_lazim",
+  "name": "Madd Lazim",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_leen",
+  "name": "Madd Leen",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_tabii",
+  "name": "Madd Tabii",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "madd_wajib_muttasil",
+  "name": "Madd Wajib Muttasil",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "meem_ghunnah",
+  "name": "Meem Ghunnah",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "noon_ghunnah",
+  "name": "Noon Ghunnah",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "qalqala_kubra",
+  "name": "Qalqala Kubra",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "qalqala_sughra",
+  "name": "Qalqala Sughra",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "silent_unclassified",
+  "name": "Silent Unclassified",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "tafkheem",
+  "name": "Tafkheem",
+  "arabic_name": "",
+  "summary": ""
+ },
+ {
+  "id": "vowel_silent",
+  "name": "Vowel Silent",
+  "arabic_name": "",
+  "summary": ""
+ }
+]
