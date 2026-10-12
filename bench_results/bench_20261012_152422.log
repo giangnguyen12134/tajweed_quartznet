@@ -1,0 +1,939 @@
+2026-10-12 15:24:24,001 text = فَكَيْفَ تَتَّقُونَ إِنْ كَفَرْتُمْ يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا, (surah,ayah) = [(73, 17)] via API=match_text
+2026-10-12 15:24:24,013 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_332] dur=7.47s | feat 7.3 + fwd 86.7 + dec 0.15 = infer 94.1 ms (RTF 0.0126) | gop 1609.5 ms | hyp=50 tok PER=0.020 | GOP ref=-0.016 self=0.000 flagged(ref)=0.000
+2026-10-12 15:24:24,016 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_332] expected vs inferred
+  expected text    : فَكَيْفَ تَتَّقُونَ إِنْ كَفَرْتُمْ يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا
+  expected phonemes: f a k a j f a t a tt a q u: n a ʔ i ŋ k a f a rˤ t u m j a w m a j̃ a ʒ Q ʕ a l u l w i l d a: n a ʃ i: b a:
+  inferred phonemes: f a k a j f a t a tt a q u: n a ʔ i ŋ k a f a rˤ t u m j a w m a j̃ a ʒ Q ʕ a l u w i l d a: n a ʃ i: b a:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 50 match, 0 substituted, 1 missing (expected but not recited), 0 inserted
+  EXP : f   a   k   a   j   f   a   t   a   tt  a   q   u:  n  
+  GOT : f   a   k   a   j   f   a   t   a   tt  a   q   u:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   ʔ   i   ŋ   k   a   f   a   rˤ  t   u   m   j   a  
+  GOT : a   ʔ   i   ŋ   k   a   f   a   rˤ  t   u   m   j   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   m   a   j̃  a   ʒ   Q   ʕ   a   l   u   l    w   i  
+  GOT : w   m   a   j̃  a   ʒ   Q   ʕ   a   l   u   -    w   i  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.8 0.0 0.0
+  diff:                                             D
+  EXP : l   d   a:  n   a   ʃ   i:  b   a: 
+  GOT : l   d   a:  n   a   ʃ   i:  b   a: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:24:27,830 text = عَسَى رَبُّكُمْ أَنْ يَرْحَمَكُمْ وَإِنْ عُدْتُمْ عُدْنَا وَجَعَلْنَا جَهَنَّمَ لِلْكَافِرِينَ حَصِيرًا, (surah,ayah) = [(17, 8)] via API=match_text
+2026-10-12 15:24:27,851 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_774] dur=13.27s | feat 16.2 + fwd 91.0 + dec 0.13 = infer 107.4 ms (RTF 0.0081) | gop 3723.2 ms | hyp=73 tok PER=0.014 | GOP ref=-0.002 self=0.000 flagged(ref)=0.000
+2026-10-12 15:24:27,856 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_774] expected vs inferred
+  expected text    : عَسَى رَبُّكُمْ أَنْ يَرْحَمَكُمْ وَإِنْ عُدْتُمْ عُدْنَا وَجَعَلْنَا جَهَنَّمَ لِلْكَافِرِينَ حَصِيرًا
+  expected phonemes: ʕ a s a: rˤ aˤ bb u k u m ʔ a j̃ a rˤ ħ a m a k u m w a ʔ i n ʕ u tt u m ʕ u d Q n a: w a ʒ a ʕ a l n a: ʒ a h a ñ a m a l i l k a: f i r i: n a ħ a sˤ i: rˤ aˤ:
+  inferred phonemes: ʕ a s a: rˤ aˤ bb u k u m ʔ a j̃ a rˤ ħ a m a k u m w a ʔ i n ʕ u tt u m ʕ u d Q n a: w̃ a ʒ a ʕ a l n a: ʒ a h a ñ a m a l i l k a: f i r i: n a ħ a sˤ i: rˤ aˤ:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 72 match, 1 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : ʕ   a   s   a:  rˤ  aˤ  bb  u   k   u   m   ʔ   a   j̃ 
+  GOT : ʕ   a   s   a:  rˤ  aˤ  bb  u   k   u   m   ʔ   a   j̃ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   rˤ  ħ   a   m   a   k   u   m   w   a   ʔ   i   n  
+  GOT : a   rˤ  ħ   a   m   a   k   u   m   w   a   ʔ   i   n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ʕ   u   tt  u   m   ʕ   u   d   Q   n   a:  w    a   ʒ  
+  GOT : ʕ   u   tt  u   m   ʕ   u   d   Q   n   a:  w̃   a   ʒ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.2 0.0 0.0
+  diff:                                             X
+  EXP : a   ʕ   a   l   n   a:  ʒ   a   h   a   ñ   a   m   a  
+  GOT : a   ʕ   a   l   n   a:  ʒ   a   h   a   ñ   a   m   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : l   i   l   k   a:  f   i   r   i:  n   a   ħ   a   sˤ 
+  GOT : l   i   l   k   a:  f   i   r   i:  n   a   ħ   a   sˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i:  rˤ  aˤ:
+  GOT : i:  rˤ  aˤ:
+  GOP : 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:24:33,646 text = يُرِيدُونَ أَنْ يُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ وَيَأْبَى اللَّهُ إِلَّا أَنْ يُتِمَّ نُورَهُ وَلَوْ كَرِهَ الْكَافِرُونَ, (surah,ayah) = [(9, 32)] via API=match_text
+2026-10-12 15:24:33,670 [everyayah_heldout:everyayah_heldout/test-00008-of-00013_1749] dur=14.13s | feat 17.2 + fwd 113.9 + dec 0.14 = infer 131.2 ms (RTF 0.0093) | gop 5677.5 ms | hyp=86 tok PER=0.035 | GOP ref=-0.062 self=0.000 flagged(ref)=0.012
+2026-10-12 15:24:33,677 [everyayah_heldout:everyayah_heldout/test-00008-of-00013_1749] expected vs inferred
+  expected text    : يُرِيدُونَ أَنْ يُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ وَيَأْبَى اللَّهُ إِلَّا أَنْ يُتِمَّ نُورَهُ وَلَوْ كَرِهَ الْكَافِرُونَ
+  expected phonemes: j u r i: d u: n a ʔ a j̃ u tˤ Q f i ʔ u: n u: rˤ aˤ lˤlˤ aˤ: h i b i ʔ a f w a: h i h i m w a j a ʔ b a lˤlˤ aˤ: h u ʔ i ll a: ʔ a j̃ u t i m̃ a n u: rˤ aˤ h u: w a l a w k a r i h a l k a: f i rˤ u: n
+  inferred phonemes: j u r i: d u: n a ʔ a j̃ u tˤ Q f i rˤ u: n u: rˤ aˤ lˤlˤ aˤ: h i b i ʔ a f w a: h i h i m w a j a ʔ b a lˤlˤ aˤ: h u ʔ i ñ a: ʔ a j̃ u t i m̃ a n u: rˤ aˤ h m w a l a w k a r i h a l k a: f i rˤ u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 83 match, 3 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : j   u   r   i:  d   u:  n   a   ʔ   a   j̃  u   tˤ  Q  
+  GOT : j   u   r   i:  d   u:  n   a   ʔ   a   j̃  u   tˤ  Q  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : f   i   ʔ    u:  n   u:  rˤ  aˤ  lˤlˤ aˤ: h   i   b   i  
+  GOT : f   i   rˤ   u:  n   u:  rˤ  aˤ  lˤlˤ aˤ: h   i   b   i  
+  GOP : 0.0 0.0 -5.1 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0
+  diff:         X
+  EXP : ʔ   a   f   w   a:  h   i   h   i   m   w   a   j   a  
+  GOT : ʔ   a   f   w   a:  h   i   h   i   m   w   a   j   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ʔ   b   a   lˤlˤ aˤ: h   u   ʔ   i   ll   a:  ʔ   a   j̃ 
+  GOT : ʔ   b   a   lˤlˤ aˤ: h   u   ʔ   i   ñ    a:  ʔ   a   j̃ 
+  GOP : 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 -0.1 0.0 0.0 0.0 0.0
+  diff:                                      X
+  EXP : u   t   i   m̃  a   n   u:  rˤ  aˤ  h   u:   w   a   l  
+  GOT : u   t   i   m̃  a   n   u:  rˤ  aˤ  h   m    w   a   l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.1 0.0 0.0 0.0
+  diff:                                         X
+  EXP : a   w   k   a   r   i   h   a   l   k   a:  f   i   rˤ 
+  GOT : a   w   k   a   r   i   h   a   l   k   a:  f   i   rˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u:  n  
+  GOT : u:  n  
+  GOP : 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:24:41,635 text = لَا يَنْهَاكُمُ اللَّهُ عَنِ الَّذِينَ لَمْ يُقَاتِلُوكُمْ فِي الدِّينِ وَلَمْ يُخْرِجُوكُمْ مِنْ دِيَارِكُمْ أَنْ تَبَرُّوهُمْ وَتُقْسِطُوا إِلَيْهِمْ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ, (surah,ayah) = [(60, 8)] via API=match_text
+2026-10-12 15:24:41,670 [everyayah_heldout:everyayah_heldout/test-00010-of-00013_476] dur=17.84s | feat 21.5 + fwd 116.5 + dec 0.17 = infer 138.1 ms (RTF 0.0077) | gop 7846.7 ms | hyp=125 tok PER=0.008 | GOP ref=-0.006 self=0.000 flagged(ref)=0.000
+2026-10-12 15:24:41,684 [everyayah_heldout:everyayah_heldout/test-00010-of-00013_476] expected vs inferred
+  expected text    : لَا يَنْهَاكُمُ اللَّهُ عَنِ الَّذِينَ لَمْ يُقَاتِلُوكُمْ فِي الدِّينِ وَلَمْ يُخْرِجُوكُمْ مِنْ دِيَارِكُمْ أَنْ تَبَرُّوهُمْ وَتُقْسِطُوا إِلَيْهِمْ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ
+  expected phonemes: l a: j a n h a: k u m u lˤlˤ aˤ: h u ʕ a n i ll a ð i: n a l a m j u q aˤ: t i l u: k u m f i dd i: n i w a l a m j u x r i ʒ u: k u m̃ i ŋ d i j a: r i k u m ʔ a ŋ t a b a rˤrˤ u: h u m w a t u q Q s i tˤ u: ʔ i l a j h i m ʔ i ñ a lˤlˤ aˤ: h a j u ħ i bb u l m u q Q s i tˤ i: n
+  inferred phonemes: l a: j a n h a: k u m u lˤlˤ aˤ: h u ʕ a n i ll a ð i: n a l a m j u q aˤ: t i l u: k u m f i dd i: n i w a l a m j u x r i ʒ u: k u m̃ i ŋ d i j a: r i k u m ʔ a ŋ t a b a rˤrˤ u: h u m w a t u q Q s i tˤ u: ʔ i l a j h i m ʔ i ñ a lˤlˤ aˤ: h a j u ħ i bb u l m u q Q s a tˤ i: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 124 match, 1 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : l   a:  j   a   n   h   a:  k   u   m   u   lˤlˤ aˤ: h  
+  GOT : l   a:  j   a   n   h   a:  k   u   m   u   lˤlˤ aˤ: h  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0
+  diff: 
+  EXP : u   ʕ   a   n   i   ll  a   ð   i:  n   a   l   a   m  
+  GOT : u   ʕ   a   n   i   ll  a   ð   i:  n   a   l   a   m  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : j   u   q   aˤ: t   i   l   u:  k   u   m   f   i   dd 
+  GOT : j   u   q   aˤ: t   i   l   u:  k   u   m   f   i   dd 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i:  n   i   w   a   l   a   m   j   u   x   r   i   ʒ  
+  GOT : i:  n   i   w   a   l   a   m   j   u   x   r   i   ʒ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u:  k   u   m̃  i   ŋ   d   i   j   a:  r   i   k   u  
+  GOT : u:  k   u   m̃  i   ŋ   d   i   j   a:  r   i   k   u  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m   ʔ   a   ŋ   t   a   b   a   rˤrˤ u:  h   u   m   w  
+  GOT : m   ʔ   a   ŋ   t   a   b   a   rˤrˤ u:  h   u   m   w  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   t   u   q   Q   s   i   tˤ  u:  ʔ   i   l   a   j  
+  GOT : a   t   u   q   Q   s   i   tˤ  u:  ʔ   i   l   a   j  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : h   i   m   ʔ   i   ñ   a   lˤlˤ aˤ: h   a   j   u   ħ  
+  GOT : h   i   m   ʔ   i   ñ   a   lˤlˤ aˤ: h   a   j   u   ħ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   bb  u   l   m   u   q   Q   s   i    tˤ  i:  n  
+  GOT : i   bb  u   l   m   u   q   Q   s   a    tˤ  i:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.7 0.0 0.0 0.0
+  diff:                                     X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:24:49,858 text = يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ وَاخْشَوْا يَوْمًا لَا يَجْزِي وَالِدٌ عَنْ وَلَدِهِ وَلَا مَوْلُودٌ هُوَ جَازٍ عَنْ وَالِدِهِ شَيْئًا إِنَّ وَعْدَ اللَّهِ حَقٌّ فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا وَلَا يَغُرَّنَّكُمْ بِاللَّهِ الْغَرُورُ, (surah,ayah) = [(31, 33)] via API=match_text
+2026-10-12 15:24:49,916 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_149] dur=27.30s | feat 31.2 + fwd 169.9 + dec 0.24 = infer 201.3 ms (RTF 0.0074) | gop 8018.0 ms | hyp=169 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:24:49,942 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_149] expected vs inferred
+  expected text    : يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ وَاخْشَوْا يَوْمًا لَا يَجْزِي وَالِدٌ عَنْ وَلَدِهِ وَلَا مَوْلُودٌ هُوَ جَازٍ عَنْ وَالِدِهِ شَيْئًا إِنَّ وَعْدَ اللَّهِ حَقٌّ فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا وَلَا يَغُرَّنَّكُمْ بِاللَّهِ الْغَرُورُ
+  expected phonemes: j a: ʔ a jj u h a ñ a: s u tt a q u: rˤ aˤ bb a k u m w a x ʃ a w j a w m a ll a: j a ʒ Q z i: w a: l i d u n ʕ a w̃ a l a d i h i: w a l a: m a w l u: d u n h u w a ʒ a: z i n ʕ a w̃ a: l i d i h i: ʃ a j ʔ a n ʔ i ñ a w a ʕ d a lˤlˤ aˤ: h i ħ a qq u ŋ f a l a: t a ɣ u rˤrˤ aˤ ñ a k u m u l ħ a j a: t u dd u n j a: w a l a: j a ɣ u rˤrˤ aˤ ñ a k u ŋ b i ll a: h i l ɣ aˤ rˤ u: rˤ
+  inferred phonemes: j a: ʔ a jj u h a ñ a: s u tt a q u: rˤ aˤ bb a k u m w a x ʃ a w j a w m a ll a: j a ʒ Q z i: w a: l i d u n ʕ a w̃ a l a d i h i: w a l a: m a w l u: d u n h u w a ʒ a: z i n ʕ a w̃ a: l i d i h i: ʃ a j ʔ a n ʔ i ñ a w a ʕ d a lˤlˤ aˤ: h i ħ a qq u ŋ f a l a: t a ɣ u rˤrˤ aˤ ñ a k u m u l ħ a j a: t u dd u n j a: w a l a: j a ɣ u rˤrˤ aˤ ñ a k u ŋ b i ll a: h i l ɣ aˤ rˤ u: rˤ
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 169 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : j   a:  ʔ   a   jj  u   h   a   ñ   a:  s   u   tt  a  
+  GOT : j   a:  ʔ   a   jj  u   h   a   ñ   a:  s   u   tt  a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : q   u:  rˤ  aˤ  bb  a   k   u   m   w   a   x   ʃ   a  
+  GOT : q   u:  rˤ  aˤ  bb  a   k   u   m   w   a   x   ʃ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   j   a   w   m   a   ll  a:  j   a   ʒ   Q   z   i: 
+  GOT : w   j   a   w   m   a   ll  a:  j   a   ʒ   Q   z   i: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   a:  l   i   d   u   n   ʕ   a   w̃  a   l   a   d  
+  GOT : w   a:  l   i   d   u   n   ʕ   a   w̃  a   l   a   d  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   h   i:  w   a   l   a:  m   a   w   l   u:  d   u  
+  GOT : i   h   i:  w   a   l   a:  m   a   w   l   u:  d   u  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : n   h   u   w   a   ʒ   a:  z   i   n   ʕ   a   w̃  a: 
+  GOT : n   h   u   w   a   ʒ   a:  z   i   n   ʕ   a   w̃  a: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : l   i   d   i   h   i:  ʃ   a   j   ʔ   a   n   ʔ   i  
+  GOT : l   i   d   i   h   i:  ʃ   a   j   ʔ   a   n   ʔ   i  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ñ   a   w   a   ʕ   d   a   lˤlˤ aˤ: h   i   ħ   a   qq 
+  GOT : ñ   a   w   a   ʕ   d   a   lˤlˤ aˤ: h   i   ħ   a   qq 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   ŋ   f   a   l   a:  t   a   ɣ   u   rˤrˤ aˤ  ñ   a  
+  GOT : u   ŋ   f   a   l   a:  t   a   ɣ   u   rˤrˤ aˤ  ñ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0
+  diff: 
+  EXP : k   u   m   u   l   ħ   a   j   a:  t   u   dd  u   n  
+  GOT : k   u   m   u   l   ħ   a   j   a:  t   u   dd  u   n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : j   a:  w   a   l   a:  j   a   ɣ   u   rˤrˤ aˤ  ñ   a  
+  GOT : j   a:  w   a   l   a:  j   a   ɣ   u   rˤrˤ aˤ  ñ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0
+  diff: 
+  EXP : k   u   ŋ   b   i   ll  a:  h   i   l   ɣ   aˤ  rˤ  u: 
+  GOT : k   u   ŋ   b   i   ll  a:  h   i   l   ɣ   aˤ  rˤ  u: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : rˤ 
+  GOT : rˤ 
+  GOP : 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:24:56,005 text = قُلْ إِنَّنِي هَدَانِي رَبِّي إِلَى صِرَاطٍ مُسْتَقِيمٍ دِينًا قِيَمًا مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ, (surah,ayah) = [(6, 161)] via API=match_text
+2026-10-12 15:24:56,032 [everyayah_heldout:everyayah_heldout/test-00008-of-00013_1725] dur=16.27s | feat 19.1 + fwd 113.0 + dec 0.16 = infer 132.2 ms (RTF 0.0081) | gop 5951.6 ms | hyp=93 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:24:56,040 [everyayah_heldout:everyayah_heldout/test-00008-of-00013_1725] expected vs inferred
+  expected text    : قُلْ إِنَّنِي هَدَانِي رَبِّي إِلَى صِرَاطٍ مُسْتَقِيمٍ دِينًا قِيَمًا مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ
+  expected phonemes: q u l ʔ i ñ a n i: h a d a: n i: rˤ aˤ bb i: ʔ i l a: sˤ i rˤ aˤ: tˤ i m̃ u s t a q i: m i ŋ d i: n a ŋ q i j a m a m̃ i ll a t a ʔ i b Q rˤ aˤ: h i: m a ħ a n i: f a w̃ a m a: k a: n a m i n a l m u ʃ r i k i: n
+  inferred phonemes: q u l ʔ i ñ a n i: h a d a: n i: rˤ aˤ bb i: ʔ i l a: sˤ i rˤ aˤ: tˤ i m̃ u s t a q i: m i ŋ d i: n a ŋ q i j a m a m̃ i ll a t a ʔ i b Q rˤ aˤ: h i: m a ħ a n i: f a w̃ a m a: k a: n a m i n a l m u ʃ r i k i: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 93 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : q   u   l   ʔ   i   ñ   a   n   i:  h   a   d   a:  n  
+  GOT : q   u   l   ʔ   i   ñ   a   n   i:  h   a   d   a:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i:  rˤ  aˤ  bb  i:  ʔ   i   l   a:  sˤ  i   rˤ  aˤ: tˤ 
+  GOT : i:  rˤ  aˤ  bb  i:  ʔ   i   l   a:  sˤ  i   rˤ  aˤ: tˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   m̃  u   s   t   a   q   i:  m   i   ŋ   d   i:  n  
+  GOT : i   m̃  u   s   t   a   q   i:  m   i   ŋ   d   i:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   ŋ   q   i   j   a   m   a   m̃  i   ll  a   t   a  
+  GOT : a   ŋ   q   i   j   a   m   a   m̃  i   ll  a   t   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ʔ   i   b   Q   rˤ  aˤ: h   i:  m   a   ħ   a   n   i: 
+  GOT : ʔ   i   b   Q   rˤ  aˤ: h   i:  m   a   ħ   a   n   i: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : f   a   w̃  a   m   a:  k   a:  n   a   m   i   n   a  
+  GOT : f   a   w̃  a   m   a:  k   a:  n   a   m   i   n   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : l   m   u   ʃ   r   i   k   i:  n  
+  GOT : l   m   u   ʃ   r   i   k   i:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:00,335 text = نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ وَأَنْزَلَ التَّوْرَاةَ وَالْإِنْجِيلَ, (surah,ayah) = [(3, 3)] via API=match_text
+2026-10-12 15:25:00,357 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_610] dur=12.30s | feat 12.2 + fwd 109.5 + dec 0.13 = infer 121.9 ms (RTF 0.0099) | gop 4188.9 ms | hyp=76 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:00,363 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_610] expected vs inferred
+  expected text    : نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ وَأَنْزَلَ التَّوْرَاةَ وَالْإِنْجِيلَ
+  expected phonemes: n a zz a l a ʕ a l a j k a l k i t a: b a b i l ħ a qq i m u sˤ aˤ dd i q aˤ ll i m a: b a j n a j a d a j h i w a ʔ a ŋ z a l a tt a w rˤ aˤ: t a w a l ʔ i ŋ ʒ i: l
+  inferred phonemes: n a zz a l a ʕ a l a j k a l k i t a: b a b i l ħ a qq i m u sˤ aˤ dd i q aˤ ll i m a: b a j n a j a d a j h i w a ʔ a ŋ z a l a tt a w rˤ aˤ: t a w a l ʔ i ŋ ʒ i: l
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 76 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : n   a   zz  a   l   a   ʕ   a   l   a   j   k   a   l  
+  GOT : n   a   zz  a   l   a   ʕ   a   l   a   j   k   a   l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : k   i   t   a:  b   a   b   i   l   ħ   a   qq  i   m  
+  GOT : k   i   t   a:  b   a   b   i   l   ħ   a   qq  i   m  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   sˤ  aˤ  dd  i   q   aˤ  ll  i   m   a:  b   a   j  
+  GOT : u   sˤ  aˤ  dd  i   q   aˤ  ll  i   m   a:  b   a   j  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : n   a   j   a   d   a   j   h   i   w   a   ʔ   a   ŋ  
+  GOT : n   a   j   a   d   a   j   h   i   w   a   ʔ   a   ŋ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : z   a   l   a   tt  a   w   rˤ  aˤ: t   a   w   a   l  
+  GOT : z   a   l   a   tt  a   w   rˤ  aˤ: t   a   w   a   l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ʔ   i   ŋ   ʒ   i:  l  
+  GOT : ʔ   i   ŋ   ʒ   i:  l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:00,996 text = وَمَا هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ, (surah,ayah) = [(68, 52)] via API=match_text
+2026-10-12 15:25:01,005 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_319] dur=6.77s | feat 7.7 + fwd 236.3 + dec 0.14 = infer 244.1 ms (RTF 0.0361) | gop 394.7 ms | hyp=27 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:01,006 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_319] expected vs inferred
+  expected text    : وَمَا هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ
+  expected phonemes: w a m a: h u w a ʔ i ll a: ð i k rˤ u ll i l ʕ a: l a m i: n
+  inferred phonemes: w a m a: h u w a ʔ i ll a: ð i k rˤ u ll i l ʕ a: l a m i: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 27 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : w   a   m   a:  h   u   w   a   ʔ   i   ll  a:  ð   i  
+  GOT : w   a   m   a:  h   u   w   a   ʔ   i   ll  a:  ð   i  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : k   rˤ  u   ll  i   l   ʕ   a:  l   a   m   i:  n  
+  GOT : k   rˤ  u   ll  i   l   ʕ   a:  l   a   m   i:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:08,149 text = فَلَمَّا أَنْ جَاءَ الْبَشِيرُ أَلْقَاهُ عَلَى وَجْهِهِ فَارْتَدَّ بَصِيرًا قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ مِنَ اللَّهِ مَا لَا تَعْلَمُونَ, (surah,ayah) = [(12, 96)] via API=match_text
+2026-10-12 15:25:08,187 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_741] dur=24.82s | feat 29.3 + fwd 116.9 + dec 0.22 = infer 146.4 ms (RTF 0.0059) | gop 7028.0 ms | hyp=94 tok PER=0.078 | GOP ref=-0.109 self=0.000 flagged(ref)=0.059
+2026-10-12 15:25:08,195 [everyayah_heldout:everyayah_heldout/test-00003-of-00013_741] expected vs inferred
+  expected text    : فَلَمَّا أَنْ جَاءَ الْبَشِيرُ أَلْقَاهُ عَلَى وَجْهِهِ فَارْتَدَّ بَصِيرًا قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ مِنَ اللَّهِ مَا لَا تَعْلَمُونَ
+  expected phonemes: f a l a m̃ a: ʔ a ŋ ʒ a: ʔ a l b a ʃ i: rˤ u ʔ a l q aˤ: h u ʕ a l a: w a ʒ Q h i h i: f a rˤ t a dd a b a sˤ i: rˤ aˤ ŋ q aˤ: l a ʔ a l a m ʔ a q u ll a k u m ʔ i ñ i: ʔ a ʕ l a m u m i n a lˤlˤ aˤ: h i m a: l a: t a ʕ l a m u: n
+  inferred phonemes: f a l a m̃ a: ʔ a ŋ ʒ a: ʔ a l b a ʃ i: rˤ u ʔ a l q aˤ: h u ʕ a l a: w a ʒ Q h i h i: f a rˤ t a dd a b a sˤ i: rˤ aˤ q aˤ: l a q u ll a k u m ʔ i ñ i: ʔ a ʕ l a m u m i n a lˤlˤ aˤ: h i m a: l a: t a ʕ l a m u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 94 match, 0 substituted, 8 missing (expected but not recited), 0 inserted
+  EXP : f   a   l   a   m̃  a:  ʔ   a   ŋ   ʒ   a:  ʔ   a   l  
+  GOT : f   a   l   a   m̃  a:  ʔ   a   ŋ   ʒ   a:  ʔ   a   l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : b   a   ʃ   i:  rˤ  u   ʔ   a   l   q   aˤ: h   u   ʕ  
+  GOT : b   a   ʃ   i:  rˤ  u   ʔ   a   l   q   aˤ: h   u   ʕ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   l   a:  w   a   ʒ   Q   h   i   h   i:  f   a   rˤ 
+  GOT : a   l   a:  w   a   ʒ   Q   h   i   h   i:  f   a   rˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : t   a   dd  a   b   a   sˤ  i:  rˤ  aˤ  ŋ    q   aˤ: l  
+  GOT : t   a   dd  a   b   a   sˤ  i:  rˤ  aˤ  -    q   aˤ: -  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -1.4 0.0 0.0 0.0
+  diff:                                         D            D
+  EXP : a   ʔ    a    l    a    m    ʔ    a    q   u   ll  a   k   u  
+  GOT : -   -    -    l    -    -    -    a    q   u   ll  a   k   u  
+  GOP : 0.0 -2.4 -1.1 -1.5 -1.0 -0.8 -1.5 -1.5 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: D   D    D         D    D    D
+  EXP : m   ʔ   i   ñ   i:  ʔ   a   ʕ   l   a   m   u   m   i  
+  GOT : m   ʔ   i   ñ   i:  ʔ   a   ʕ   l   a   m   u   m   i  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : n   a   lˤlˤ aˤ: h   i   m   a:  l   a:  t   a   ʕ   l  
+  GOT : n   a   lˤlˤ aˤ: h   i   m   a:  l   a:  t   a   ʕ   l  
+  GOP : 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   m   u:  n  
+  GOT : a   m   u:  n  
+  GOP : 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: ikhfaa_tanween(aˤŋ)=-1.4
+2026-10-12 15:25:08,282 text = إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِ مَاذَا تَعْبُدُونَ, (surah,ayah) = [(37, 85)] via API=match_text
+2026-10-12 15:25:08,289 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_189] dur=4.91s | feat 4.8 + fwd 72.4 + dec 0.12 = infer 77.4 ms (RTF 0.0158) | gop 12.9 ms | hyp=35 tok PER=0.028 | GOP ref=-0.015 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:08,290 [everyayah_heldout:everyayah_heldout/test-00009-of-00013_189] expected vs inferred
+  expected text    : إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِ مَاذَا تَعْبُدُونَ
+  expected phonemes: ʔ i ð q aˤ: l a l i ʔ a b i: h i w a q aˤ w m i h i: m a: ð a: t a ʕ b u d u: n
+  inferred phonemes: ʔ i q aˤ: l a l i ʔ a b i: h i w a q aˤ w m i h i: m a: ð a: t a ʕ b u d u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 35 match, 0 substituted, 1 missing (expected but not recited), 0 inserted
+  EXP : ʔ   i   ð    q   aˤ: l   a   l   i   ʔ   a   b   i:  h  
+  GOT : ʔ   i   -    q   aˤ: l   a   l   i   ʔ   a   b   i:  h  
+  GOP : 0.0 0.0 -0.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff:         D
+  EXP : i   w   a   q   aˤ  w   m   i   h   i:  m   a:  ð   a: 
+  GOT : i   w   a   q   aˤ  w   m   i   h   i:  m   a:  ð   a: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : t   a   ʕ   b   u   d   u:  n  
+  GOT : t   a   ʕ   b   u   d   u:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:08,406 text = فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ الظُّلَّةِ إِنَّهُ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ, (surah,ayah) = [(26, 189)] via API=match_text
+2026-10-12 15:25:08,423 [qul_alnufais:qul_alnufais/26_189] dur=12.04s | feat 11.5 + fwd 86.2 + dec 0.12 = infer 97.8 ms (RTF 0.0081) | gop 31.1 ms | hyp=65 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:08,428 [qul_alnufais:qul_alnufais/26_189] expected vs inferred
+  expected text    : فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ الظُّلَّةِ إِنَّهُ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ
+  expected phonemes: f a k a ðð a b u: h u f a ʔ a x aˤ ð a h u m ʕ a ð a: b u j a w m i ðˤðˤ u ll a t i ʔ i ñ a h u: k a: n a ʕ a ð a: b a j a w m i n ʕ a ðˤ i: m
+  inferred phonemes: f a k a ðð a b u: h u f a ʔ a x aˤ ð a h u m ʕ a ð a: b u j a w m i ðˤðˤ u ll a t i ʔ i ñ a h u: k a: n a ʕ a ð a: b a j a w m i n ʕ a ðˤ i: m
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 65 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : f   a   k   a   ðð  a   b   u:  h   u   f   a   ʔ   a  
+  GOT : f   a   k   a   ðð  a   b   u:  h   u   f   a   ʔ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : x   aˤ  ð   a   h   u   m   ʕ   a   ð   a:  b   u   j  
+  GOT : x   aˤ  ð   a   h   u   m   ʕ   a   ð   a:  b   u   j  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   w   m   i   ðˤðˤ u   ll  a   t   i   ʔ   i   ñ   a  
+  GOT : a   w   m   i   ðˤðˤ u   ll  a   t   i   ʔ   i   ñ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : h   u:  k   a:  n   a   ʕ   a   ð   a:  b   a   j   a  
+  GOT : h   u:  k   a:  n   a   ʕ   a   ð   a:  b   a   j   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   m   i   n   ʕ   a   ðˤ  i:  m  
+  GOT : w   m   i   n   ʕ   a   ðˤ  i:  m  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:14,447 text = فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَا صَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِن كُنتَ مِنَ الْمُرْسَلِينَ, (surah,ayah) = [(7, 77)] via API=match_text
+2026-10-12 15:25:14,475 [qul_alnufais:qul_alnufais/7_77] dur=17.53s | feat 18.8 + fwd 138.9 + dec 0.17 = infer 157.9 ms (RTF 0.0090) | gop 5883.4 ms | hyp=88 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:14,482 [qul_alnufais:qul_alnufais/7_77] expected vs inferred
+  expected text    : فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَا صَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِن كُنتَ مِنَ الْمُرْسَلِينَ
+  expected phonemes: f a ʕ a q aˤ rˤ u ñ a: q aˤ t a w a ʕ a t a w ʕ a n ʔ a m r i rˤ aˤ bb i h i m w a q aˤ: l u: j a: sˤ aˤ: l i ħ u ʔ t i n a: b i m a: t a ʕ i d u n a: ʔ i ŋ k u ŋ t a m i n a l m u rˤ s a l i: n
+  inferred phonemes: f a ʕ a q aˤ rˤ u ñ a: q aˤ t a w a ʕ a t a w ʕ a n ʔ a m r i rˤ aˤ bb i h i m w a q aˤ: l u: j a: sˤ aˤ: l i ħ u ʔ t i n a: b i m a: t a ʕ i d u n a: ʔ i ŋ k u ŋ t a m i n a l m u rˤ s a l i: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 88 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : f   a   ʕ   a   q   aˤ  rˤ  u   ñ   a:  q   aˤ  t   a  
+  GOT : f   a   ʕ   a   q   aˤ  rˤ  u   ñ   a:  q   aˤ  t   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   a   ʕ   a   t   a   w   ʕ   a   n   ʔ   a   m   r  
+  GOT : w   a   ʕ   a   t   a   w   ʕ   a   n   ʔ   a   m   r  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   rˤ  aˤ  bb  i   h   i   m   w   a   q   aˤ: l   u: 
+  GOT : i   rˤ  aˤ  bb  i   h   i   m   w   a   q   aˤ: l   u: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : j   a:  sˤ  aˤ: l   i   ħ   u   ʔ   t   i   n   a:  b  
+  GOT : j   a:  sˤ  aˤ: l   i   ħ   u   ʔ   t   i   n   a:  b  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   m   a:  t   a   ʕ   i   d   u   n   a:  ʔ   i   ŋ  
+  GOT : i   m   a:  t   a   ʕ   i   d   u   n   a:  ʔ   i   ŋ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : k   u   ŋ   t   a   m   i   n   a   l   m   u   rˤ  s  
+  GOT : k   u   ŋ   t   a   m   i   n   a   l   m   u   rˤ  s  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   l   i:  n  
+  GOT : a   l   i:  n  
+  GOP : 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:14,622 text = وَإِن مِّنكُمْ إِلَّا وَارِدُهَا كَانَ عَلَى رَبِّكَ حَتْمًا مَّقْضِيًّا, (surah,ayah) = [(19, 71)] via API=match_text
+2026-10-12 15:25:14,639 [qul_alnufais:qul_alnufais/19_71] dur=13.14s | feat 13.3 + fwd 108.6 + dec 0.13 = infer 122.0 ms (RTF 0.0093) | gop 30.3 ms | hyp=49 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:14,641 [qul_alnufais:qul_alnufais/19_71] expected vs inferred
+  expected text    : وَإِن مِّنكُمْ إِلَّا وَارِدُهَا كَانَ عَلَى رَبِّكَ حَتْمًا مَّقْضِيًّا
+  expected phonemes: w a ʔ i m̃ i ŋ k u m ʔ i ll a: w a: r i d u h a: k a: n a ʕ a l a: rˤ aˤ bb i k a ħ a t m a m̃ a q Q dˤ i jj a:
+  inferred phonemes: w a ʔ i m̃ i ŋ k u m ʔ i ll a: w a: r i d u h a: k a: n a ʕ a l a: rˤ aˤ bb i k a ħ a t m a m̃ a q Q dˤ i jj a:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 49 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : w   a   ʔ   i   m̃  i   ŋ   k   u   m   ʔ   i   ll  a: 
+  GOT : w   a   ʔ   i   m̃  i   ŋ   k   u   m   ʔ   i   ll  a: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   a:  r   i   d   u   h   a:  k   a:  n   a   ʕ   a  
+  GOT : w   a:  r   i   d   u   h   a:  k   a:  n   a   ʕ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : l   a:  rˤ  aˤ  bb  i   k   a   ħ   a   t   m   a   m̃ 
+  GOT : l   a:  rˤ  aˤ  bb  i   k   a   ħ   a   t   m   a   m̃ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   q   Q   dˤ  i   jj  a: 
+  GOT : a   q   Q   dˤ  i   jj  a: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:14,818 text = ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ, (surah,ayah) = [(3, 182)] via API=match_text
+2026-10-12 15:25:14,835 [qul_alnufais:qul_alnufais/8_51] dur=10.63s | feat 11.0 + fwd 147.4 + dec 0.11 = infer 158.5 ms (RTF 0.0149) | gop 30.4 ms | hyp=57 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:14,838 [qul_alnufais:qul_alnufais/8_51] expected vs inferred
+  expected text    : ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ
+  expected phonemes: ð a: l i k a b i m a: q aˤ dd a m a t ʔ a j d i: k u m w a ʔ a ñ a lˤlˤ aˤ: h a l a j s a b i ðˤ aˤ ll a: m i ll i l ʕ a b i: d Q
+  inferred phonemes: ð a: l i k a b i m a: q aˤ dd a m a t ʔ a j d i: k u m w a ʔ a ñ a lˤlˤ aˤ: h a l a j s a b i ðˤ aˤ ll a: m i ll i l ʕ a b i: d Q
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 57 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : ð   a:  l   i   k   a   b   i   m   a:  q   aˤ  dd  a  
+  GOT : ð   a:  l   i   k   a   b   i   m   a:  q   aˤ  dd  a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m   a   t   ʔ   a   j   d   i:  k   u   m   w   a   ʔ  
+  GOT : m   a   t   ʔ   a   j   d   i:  k   u   m   w   a   ʔ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   ñ   a   lˤlˤ aˤ: h   a   l   a   j   s   a   b   i  
+  GOT : a   ñ   a   lˤlˤ aˤ: h   a   l   a   j   s   a   b   i  
+  GOP : 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ðˤ  aˤ  ll  a:  m   i   ll  i   l   ʕ   a   b   i:  d  
+  GOT : ðˤ  aˤ  ll  a:  m   i   ll  i   l   ʕ   a   b   i:  d  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : Q  
+  GOT : Q  
+  GOP : 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:23,765 text = وَلَا تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُم بِالْغَدَاةِ وَالْعَشِيِّ يُرِيدُونَ وَجْهَهُ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَيْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَيْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ الظَّالِمِينَ, (surah,ayah) = [(6, 52)] via API=match_text
+2026-10-12 15:25:23,828 [qul_alnufais:qul_alnufais/6_52] dur=32.21s | feat 41.3 + fwd 261.6 + dec 3.86 = infer 306.8 ms (RTF 0.0095) | gop 8671.0 ms | hyp=158 tok PER=0.006 | GOP ref=-0.001 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:23,851 [qul_alnufais:qul_alnufais/6_52] expected vs inferred
+  expected text    : وَلَا تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُم بِالْغَدَاةِ وَالْعَشِيِّ يُرِيدُونَ وَجْهَهُ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَيْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَيْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ الظَّالِمِينَ
+  expected phonemes: w a l a: t a tˤ Q rˤ u d i ll a ð i: n a j a d Q ʕ u: n a rˤ aˤ bb a h u ŋ b i l ɣ aˤ d a: t i w a l ʕ a ʃ i jj i j u r i: d u: n a w a ʒ Q h a h u: m a: ʕ a l a j k a m i n ħ i s a: b i h i m̃ i ŋ ʃ a j ʔ i w̃ a m a: m i n ħ i s a: b i k a ʕ a l a j h i m̃ i ŋ ʃ a j ʔ i ŋ f a t a tˤ Q rˤ u d a h u m f a t a k u: n a m i n a ðˤðˤ aˤ: l i m i: n
+  inferred phonemes: w a l a: t a tˤ Q rˤ u d i ll a ð i: n a j a d Q ʕ u: n a rˤ aˤ bb a h u ŋ b i l ɣ aˤ d a: t i w a l ʕ a ʃ i jj i j u r i: d u: n a w a ʒ Q h a h u: m a: ʕ a l a j k a m i n ħ i s a: b i h i m̃ i ŋ ʃ a j ʔ i w a m a: m i n ħ i s a: b i k a ʕ a l a j h i m̃ i ŋ ʃ a j ʔ i ŋ f a t a tˤ Q rˤ u d a h u m f a t a k u: n a m i n a ðˤðˤ aˤ: l i m i: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 157 match, 1 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : w   a   l   a:  t   a   tˤ  Q   rˤ  u   d   i   ll  a  
+  GOT : w   a   l   a:  t   a   tˤ  Q   rˤ  u   d   i   ll  a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ð   i:  n   a   j   a   d   Q   ʕ   u:  n   a   rˤ  aˤ 
+  GOT : ð   i:  n   a   j   a   d   Q   ʕ   u:  n   a   rˤ  aˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : bb  a   h   u   ŋ   b   i   l   ɣ   aˤ  d   a:  t   i  
+  GOT : bb  a   h   u   ŋ   b   i   l   ɣ   aˤ  d   a:  t   i  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : w   a   l   ʕ   a   ʃ   i   jj  i   j   u   r   i:  d  
+  GOT : w   a   l   ʕ   a   ʃ   i   jj  i   j   u   r   i:  d  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u:  n   a   w   a   ʒ   Q   h   a   h   u:  m   a:  ʕ  
+  GOT : u:  n   a   w   a   ʒ   Q   h   a   h   u:  m   a:  ʕ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   l   a   j   k   a   m   i   n   ħ   i   s   a:  b  
+  GOT : a   l   a   j   k   a   m   i   n   ħ   i   s   a:  b  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : i   h   i   m̃  i   ŋ   ʃ   a   j   ʔ   i   w̃   a   m  
+  GOT : i   h   i   m̃  i   ŋ   ʃ   a   j   ʔ   i   w    a   m  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.2 0.0 0.0
+  diff:                                             X
+  EXP : a:  m   i   n   ħ   i   s   a:  b   i   k   a   ʕ   a  
+  GOT : a:  m   i   n   ħ   i   s   a:  b   i   k   a   ʕ   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : l   a   j   h   i   m̃  i   ŋ   ʃ   a   j   ʔ   i   ŋ  
+  GOT : l   a   j   h   i   m̃  i   ŋ   ʃ   a   j   ʔ   i   ŋ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : f   a   t   a   tˤ  Q   rˤ  u   d   a   h   u   m   f  
+  GOT : f   a   t   a   tˤ  Q   rˤ  u   d   a   h   u   m   f  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   t   a   k   u:  n   a   m   i   n   a   ðˤðˤ aˤ: l  
+  GOT : a   t   a   k   u:  n   a   m   i   n   a   ðˤðˤ aˤ: l  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0
+  diff: 
+  EXP : i   m   i:  n  
+  GOT : i   m   i:  n  
+  GOP : 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:27,520 text = وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَى أَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَأَنَّى يُبْصِرُونَ, (surah,ayah) = [(36, 66)] via API=match_text
+2026-10-12 15:25:27,560 [qul_alnufais:qul_alnufais/36_66] dur=13.87s | feat 13.8 + fwd 395.4 + dec 0.14 = infer 409.3 ms (RTF 0.0295) | gop 3289.2 ms | hyp=64 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:27,565 [qul_alnufais:qul_alnufais/36_66] expected vs inferred
+  expected text    : وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَى أَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَأَنَّى يُبْصِرُونَ
+  expected phonemes: w a l a w n a ʃ a: ʔ u l a tˤ aˤ m a s n a: ʕ a l a: ʔ a ʕ j u n i h i m f a s t a b a q u sˤsˤ i rˤ aˤ: tˤ aˤ f a ʔ a ñ a: j u b Q sˤ i rˤ u: n
+  inferred phonemes: w a l a w n a ʃ a: ʔ u l a tˤ aˤ m a s n a: ʕ a l a: ʔ a ʕ j u n i h i m f a s t a b a q u sˤsˤ i rˤ aˤ: tˤ aˤ f a ʔ a ñ a: j u b Q sˤ i rˤ u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 64 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : w   a   l   a   w   n   a   ʃ   a:  ʔ   u   l   a   tˤ 
+  GOT : w   a   l   a   w   n   a   ʃ   a:  ʔ   u   l   a   tˤ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : aˤ  m   a   s   n   a:  ʕ   a   l   a:  ʔ   a   ʕ   j  
+  GOT : aˤ  m   a   s   n   a:  ʕ   a   l   a:  ʔ   a   ʕ   j  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   n   i   h   i   m   f   a   s   t   a   b   a   q  
+  GOT : u   n   i   h   i   m   f   a   s   t   a   b   a   q  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   sˤsˤ i   rˤ  aˤ: tˤ  aˤ  f   a   ʔ   a   ñ   a:  j  
+  GOT : u   sˤsˤ i   rˤ  aˤ: tˤ  aˤ  f   a   ʔ   a   ñ   a:  j  
+  GOP : 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   b   Q   sˤ  i   rˤ  u:  n  
+  GOT : u   b   Q   sˤ  i   rˤ  u:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:36,582 text = لَكِنِ الَّذِينَ اتَّقَوْا رَبَّهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا نُزُلًا مِّنْ عِندِ اللَّهِ وَمَا عِندَ اللَّهِ خَيْرٌ لِّلْأَبْرَارِ, (surah,ayah) = [(3, 198)] via API=match_text
+2026-10-12 15:25:36,643 [qul_alnufais:qul_alnufais/3_198] dur=38.32s | feat 74.9 + fwd 465.3 + dec 2.20 = infer 542.4 ms (RTF 0.0141) | gop 8525.3 ms | hyp=157 tok PER=0.339 | GOP ref=-0.014 self=0.000 flagged(ref)=0.008
+2026-10-12 15:25:36,661 [qul_alnufais:qul_alnufais/3_198] expected vs inferred
+  expected text    : لَكِنِ الَّذِينَ اتَّقَوْا رَبَّهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا نُزُلًا مِّنْ عِندِ اللَّهِ وَمَا عِندَ اللَّهِ خَيْرٌ لِّلْأَبْرَارِ
+  expected phonemes: l a: k i n i ll a ð i: n a tt a q aˤ w rˤ aˤ bb a h u m l a h u m ʒ a ñ a: t u ŋ t a ʒ Q r i: m i ŋ t a ħ t i h a l ʔ a n h a: rˤ u x aˤ: l i d i: n a f i: h a: n u z u l a m̃ i n ʕ i ŋ d i ll a: h i w a m a: ʕ i ŋ d a lˤlˤ aˤ: h i x aˤ j rˤ u ll i l ʔ a b Q rˤ aˤ: rˤ
+  inferred phonemes: l a: k i n i ll a ð i: n a tt a q aˤ w rˤ aˤ bb a h u m l a h u m ʒ a ñ a: t u ŋ t a ʒ Q r i: m i ŋ t a ħ t i l ʔ a n h a: u i ħ t i h a l ʔ a n h a: rˤ u x aˤ: l i d i: n a f i: h a: d u z u l a m̃ i n ʕ i ŋ d i ll a: h i w a m a: ʕ i ŋ d a lˤlˤ aˤ: h i x aˤ j rˤ u ll i l ʔ a b Q rˤ aˤ: rˤ u w a m a: ʕ i ŋ d a lˤlˤ aˤ: h i x aˤ j rˤ u ll i l ʔ a b Q rˤ aˤ:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 117 match, 1 substituted, 0 missing (expected but not recited), 39 inserted
+  EXP : l   a:  k   i   n   i   ll  a   ð   i:  n   a   tt  a  
+  GOT : l   a:  k   i   n   i   ll  a   ð   i:  n   a   tt  a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : q   aˤ  w   rˤ  aˤ  bb  a   h   u   m   l   a   h   u  
+  GOT : q   aˤ  w   rˤ  aˤ  bb  a   h   u   m   l   a   h   u  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m   ʒ   a   ñ   a:  t   u   ŋ   t   a   ʒ   Q   r   i: 
+  GOT : m   ʒ   a   ñ   a:  t   u   ŋ   t   a   ʒ   Q   r   i: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m   i   ŋ   - - - t   - - - a   - - - 
+  GOT : m   i   ŋ   t a ħ t   i l ʔ a   n h a:
+  GOP : 0.0 0.0 0.0       0.0       0.0       
+  diff:             I I I     I I I     I I I
+  EXP : - - ħ   t   i   h   a   l   ʔ   a   n   h   a:  rˤ 
+  GOT : u i ħ   t   i   h   a   l   ʔ   a   n   h   a:  rˤ 
+  GOP :     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: I I
+  EXP : u   x   aˤ: l   i   d   i:  n   a   f   i:  h   a:  n   
+  GOT : u   x   aˤ: l   i   d   i:  n   a   f   i:  h   a:  d   
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -1.7
+  diff:                                                     X
+  EXP : u   z   u   l   a   m̃  i   n   ʕ   i   ŋ   d   i   ll 
+  GOT : u   z   u   l   a   m̃  i   n   ʕ   i   ŋ   d   i   ll 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a:  h   i   w   a   m   a:  ʕ   i   ŋ   d   a   lˤlˤ aˤ:
+  GOT : a:  h   i   w   a   m   a:  ʕ   i   ŋ   d   a   lˤlˤ aˤ:
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0
+  diff: 
+  EXP : h   i   x   aˤ  j   rˤ  u   ll  i   l   ʔ   a   b   Q  
+  GOT : h   i   x   aˤ  j   rˤ  u   ll  i   l   ʔ   a   b   Q  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : -  -   rˤ  - - - - -  - - - - - -   
+  GOT : rˤ aˤ: rˤ  u w a m a: ʕ i ŋ d a lˤlˤ
+  GOP :        0.0                          
+  diff: I  I       I I I I I  I I I I I I
+  EXP : aˤ: - - - -  - -  - -  - - - - -
+  GOT : aˤ: h i x aˤ j rˤ u ll i l ʔ a b
+  GOP : 0.0                             
+  diff:     I I I I  I I  I I  I I I I I
+  EXP : - rˤ  -  
+  GOT : Q rˤ  aˤ:
+  GOP :   0.0    
+  diff: I     I
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:37,779 text = أَفَمَن كَانَ مُؤْمِنًا كَمَن كَانَ فَاسِقًا لَّا يَسْتَوُونَ, (surah,ayah) = [(32, 18)] via API=match_text
+2026-10-12 15:25:37,801 [qul_alnufais:qul_alnufais/32_18] dur=19.46s | feat 20.2 + fwd 134.9 + dec 0.18 = infer 155.3 ms (RTF 0.0080) | gop 979.7 ms | hyp=64 tok PER=0.455 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:37,804 [qul_alnufais:qul_alnufais/32_18] expected vs inferred
+  expected text    : أَفَمَن كَانَ مُؤْمِنًا كَمَن كَانَ فَاسِقًا لَّا يَسْتَوُونَ
+  expected phonemes: ʔ a f a m a ŋ k a: n a m u ʔ m i n a ŋ k a m a ŋ k a: n a f a: s i q aˤ ll a: j a s t a w u: n
+  inferred phonemes: ʔ a f a m a ŋ k a: n a m u ʔ m i n a ŋ k a m a ŋ k a: n a f a: s i q aˤ ll a: j a t a w u: n a l a: j a ss a w u: n a l a: j a s t a w u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 44 match, 0 substituted, 0 missing (expected but not recited), 20 inserted
+  EXP : ʔ   a   f   a   m   a   ŋ   k   a:  n   a   m   u   ʔ  
+  GOT : ʔ   a   f   a   m   a   ŋ   k   a:  n   a   m   u   ʔ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m   i   n   a   ŋ   k   a   m   a   ŋ   k   a:  n   a  
+  GOT : m   i   n   a   ŋ   k   a   m   a   ŋ   k   a:  n   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : f   a:  s   i   q   aˤ  ll  -  - - - - - - 
+  GOT : f   a:  s   i   q   aˤ  ll  a: j a t a w u:
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0                
+  diff:                             I  I I I I I I
+  EXP : - - - -  - - -  - - -  - - - a: 
+  GOT : n a l a: j a ss a w u: n a l a: 
+  GOP :                              0.0
+  diff: I I I I  I I I  I I I  I I I
+  EXP : j   a   s   t   a   w   u:  n  
+  GOT : j   a   s   t   a   w   u:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:44,343 text = أَفِي قُلُوبِهِم مَّرَضٌ أَمِ ارْتَابُوا أَمْ يَخَافُونَ أَن يَحِيفَ اللَّهُ عَلَيْهِمْ وَرَسُولُهُ بَلْ أُولَئِكَ هُمُ الظَّالِمُونَ, (surah,ayah) = [(24, 50)] via API=match_text
+2026-10-12 15:25:44,378 [qul_alnufais:qul_alnufais/24_50] dur=19.65s | feat 21.9 + fwd 126.4 + dec 0.18 = infer 148.5 ms (RTF 0.0076) | gop 6418.6 ms | hyp=91 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:44,386 [qul_alnufais:qul_alnufais/24_50] expected vs inferred
+  expected text    : أَفِي قُلُوبِهِم مَّرَضٌ أَمِ ارْتَابُوا أَمْ يَخَافُونَ أَن يَحِيفَ اللَّهُ عَلَيْهِمْ وَرَسُولُهُ بَلْ أُولَئِكَ هُمُ الظَّالِمُونَ
+  expected phonemes: ʔ a f i: q u l u: b i h i m̃ a rˤ aˤ dˤ u n ʔ a m i rˤ t a: b u: ʔ a m j a x aˤ: f u: n a ʔ a j̃ a ħ i: f a lˤlˤ aˤ: h u ʕ a l a j h i m w a rˤ aˤ s u: l u h u: b a l ʔ u l a: ʔ i k a h u m u ðˤðˤ aˤ: l i m u: n
+  inferred phonemes: ʔ a f i: q u l u: b i h i m̃ a rˤ aˤ dˤ u n ʔ a m i rˤ t a: b u: ʔ a m j a x aˤ: f u: n a ʔ a j̃ a ħ i: f a lˤlˤ aˤ: h u ʕ a l a j h i m w a rˤ aˤ s u: l u h u: b a l ʔ u l a: ʔ i k a h u m u ðˤðˤ aˤ: l i m u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 91 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : ʔ   a   f   i:  q   u   l   u:  b   i   h   i   m̃  a  
+  GOT : ʔ   a   f   i:  q   u   l   u:  b   i   h   i   m̃  a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : rˤ  aˤ  dˤ  u   n   ʔ   a   m   i   rˤ  t   a:  b   u: 
+  GOT : rˤ  aˤ  dˤ  u   n   ʔ   a   m   i   rˤ  t   a:  b   u: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ʔ   a   m   j   a   x   aˤ: f   u:  n   a   ʔ   a   j̃ 
+  GOT : ʔ   a   m   j   a   x   aˤ: f   u:  n   a   ʔ   a   j̃ 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   ħ   i:  f   a   lˤlˤ aˤ: h   u   ʕ   a   l   a   j  
+  GOT : a   ħ   i:  f   a   lˤlˤ aˤ: h   u   ʕ   a   l   a   j  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : h   i   m   w   a   rˤ  aˤ  s   u:  l   u   h   u:  b  
+  GOT : h   i   m   w   a   rˤ  aˤ  s   u:  l   u   h   u:  b  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   l   ʔ   u   l   a:  ʔ   i   k   a   h   u   m   u  
+  GOT : a   l   ʔ   u   l   a:  ʔ   i   k   a   h   u   m   u  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : ðˤðˤ aˤ: l   i   m   u:  n  
+  GOT : ðˤðˤ aˤ: l   i   m   u:  n  
+  GOP : 0.0  0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:45,096 text = فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ, (surah,ayah) = [(111, 5)] via API=match_text
+2026-10-12 15:25:45,105 [qul_alnufais:qul_alnufais/111_5] dur=7.73s | feat 13.5 + fwd 452.4 + dec 0.15 = infer 466.1 ms (RTF 0.0603) | gop 249.2 ms | hyp=22 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:45,106 [qul_alnufais:qul_alnufais/111_5] expected vs inferred
+  expected text    : فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ
+  expected phonemes: f i: ʒ i: d i h a: ħ a b Q l u m̃ i m̃ a s a d Q
+  inferred phonemes: f i: ʒ i: d i h a: ħ a b Q l u m̃ i m̃ a s a d Q
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 22 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : f   i:  ʒ   i:  d   i   h   a:  ħ   a   b   Q   l   u  
+  GOT : f   i:  ʒ   i:  d   i   h   a:  ħ   a   b   Q   l   u  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : m̃  i   m̃  a   s   a   d   Q  
+  GOT : m̃  i   m̃  a   s   a   d   Q  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:45,233 text = وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًا, (surah,ayah) = [(72, 19)] via API=match_text
+2026-10-12 15:25:45,247 [tlog_holdout:tlog_holdout/72_19_8815815788] dur=7.81s | feat 7.6 + fwd 106.0 + dec 0.49 = infer 114.1 ms (RTF 0.0146) | gop 23.0 ms | hyp=49 tok PER=0.237 | GOP ref=-0.863 self=0.000 flagged(ref)=0.186
+2026-10-12 15:25:45,249 [tlog_holdout:tlog_holdout/72_19_8815815788] expected vs inferred
+  expected text    : وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًا
+  expected phonemes: w a ʔ a ñ a h u: l a m̃ a: q aˤ: m a ʕ a b Q d u lˤlˤ aˤ: h i j a d Q ʕ u: h u k a: d u: j a k u: n u: n a ʕ a l a j h i l i b a d a:
+  inferred phonemes: w a ʔ a m a ʕ a b a n a lˤlˤ aˤ: h i j a d Q ʕ u: h u k a: d u j a k u: n u: n a ʕ a l a j h i l i b a d a:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 45 match, 4 substituted, 10 missing (expected but not recited), 0 inserted
+  EXP : w   a   ʔ   a   ñ    a    h    u:   l    a    m̃   a:   q    aˤ: 
+  GOT : w   a   ʔ   -   -    -    -    -    -    a    -    -    -    -   
+  GOP : 0.0 0.0 0.0 0.0 -2.8 -0.2 -1.6 -8.7 -3.7 -1.3 -1.9 -8.2 -0.5 -4.5
+  diff:             D   D    D    D    D    D         D    D    D    D
+  EXP : m   a   ʕ   a   b   Q    d    u    lˤlˤ aˤ: h   i   j   a  
+  GOT : m   a   ʕ   a   b   a    n    a    lˤlˤ aˤ: h   i   j   a  
+  GOP : 0.0 0.0 0.0 0.0 0.0 -4.0 -0.7 -4.9 0.0  0.0 0.0 0.0 0.0 0.0
+  diff:                     X    X    X
+  EXP : d   Q   ʕ   u:  h   u   k   a:  d   u:   j   a   k   u: 
+  GOT : d   Q   ʕ   u:  h   u   k   a:  d   u    j   a   k   u: 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -7.8 0.0 0.0 0.0 0.0
+  diff:                                     X
+  EXP : n   u:  n   a   ʕ   a   l   a   j   h   i   l   i   b  
+  GOT : n   u:  n   a   ʕ   a   l   a   j   h   i   l   i   b  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   d   a: 
+  GOT : a   d   a: 
+  GOP : 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_tabii(u:)=-8.7, madd_tabii(a:)=-8.2, madd_tabii(u:)=-7.8, madd_tabii(aˤ:)=-4.5, qalqala_sughra(bQ)=-4.0, noon_ghunnah(ñ)=-2.8, meem_ghunnah(m̃)=-1.9
+2026-10-12 15:25:45,396 text = وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا, (surah,ayah) = [(72, 7)] via API=match_text
+2026-10-12 15:25:45,410 [tlog_holdout:tlog_holdout/72_7_7938272635] dur=9.19s | feat 12.2 + fwd 118.4 + dec 0.10 = infer 130.7 ms (RTF 0.0142) | gop 23.9 ms | hyp=52 tok PER=0.149 | GOP ref=-0.082 self=0.000 flagged(ref)=0.043
+2026-10-12 15:25:45,413 [tlog_holdout:tlog_holdout/72_7_7938272635] expected vs inferred
+  expected text    : وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا
+  expected phonemes: w a ʔ a ñ a h u m ðˤ aˤ ñ u: k a m a: ðˤ aˤ n a ŋ t u m ʔ a ll a j̃ a b Q ʕ a θ a lˤlˤ aˤ: h u ʔ a ħ a d a:
+  inferred phonemes: w a ʔ i ñ a h u m ðˤ aˤ ñ u: k a m a: ðˤ aˤ n a ŋ t u m ʔ a ll a j̃ a b Q ʕ a θ a lˤlˤ aˤ: h u ʔ a ħ a d a w̃ a ʔ a n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 45 match, 2 substituted, 0 missing (expected but not recited), 5 inserted
+  EXP : w   a   ʔ   a    ñ   a   h   u   m   ðˤ  aˤ  ñ   u:  k  
+  GOT : w   a   ʔ   i    ñ   a   h   u   m   ðˤ  aˤ  ñ   u:  k  
+  GOP : 0.0 0.0 0.0 -1.8 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff:             X
+  EXP : a   m   a:  ðˤ  aˤ  n   a   ŋ   t   u   m   ʔ   a   ll 
+  GOT : a   m   a:  ðˤ  aˤ  n   a   ŋ   t   u   m   ʔ   a   ll 
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   j̃  a   b   Q   ʕ   a   θ   a   lˤlˤ aˤ: h   u   ʔ  
+  GOT : a   j̃  a   b   Q   ʕ   a   θ   a   lˤlˤ aˤ: h   u   ʔ  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0  0.0 0.0 0.0 0.0
+  diff: 
+  EXP : a   ħ   a   d   - -  - - - a:  
+  GOT : a   ħ   a   d   a w̃ a ʔ a n   
+  GOP : 0.0 0.0 0.0 0.0            -2.0
+  diff:                 I I  I I I X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_iwad(a:)=-2.0
+2026-10-12 15:25:45,563 text = ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ, (surah,ayah) = [(75, 33)] via API=match_text
+2026-10-12 15:25:45,570 [tlog_holdout:tlog_holdout/75_33_5270016647] dur=5.14s | feat 8.6 + fwd 132.8 + dec 0.11 = infer 141.5 ms (RTF 0.0275) | gop 12.7 ms | hyp=33 tok PER=0.345 | GOP ref=-0.819 self=0.000 flagged(ref)=0.207
+2026-10-12 15:25:45,572 [tlog_holdout:tlog_holdout/75_33_5270016647] expected vs inferred
+  expected text    : ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ
+  expected phonemes: θ u m̃ a ð a h a b a ʔ i l a: ʔ a h l i h i: j a t a m a tˤtˤ aˤ:
+  inferred phonemes: w i ʔ θ u m̃ a ð a ħ a f a ʔ i n a: ʔ a h d i h i: j a t a m a tt a ʕ
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 23 match, 6 substituted, 0 missing (expected but not recited), 4 inserted
+  EXP : - - - θ   u   m̃  a   ð   a   h    a   b    a   ʔ  
+  GOT : w i ʔ θ   u   m̃  a   ð   a   ħ    a   f    a   ʔ  
+  GOP :       0.0 0.0 0.0 0.0 0.0 0.0 -2.0 0.0 -2.5 0.0 0.0
+  diff: I I I                         X        X
+  EXP : i   l    a:  ʔ   a   h   l    i   h   i:  j   a   t   a  
+  GOT : i   n    a:  ʔ   a   h   d    i   h   i:  j   a   t   a  
+  GOP : 0.0 -4.0 0.0 0.0 0.0 0.0 -1.2 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff:     X                    X
+  EXP : m   a   -  tˤtˤ aˤ: 
+  GOT : m   a   tt a    ʕ   
+  GOP : 0.0 0.0    -5.2 -8.8
+  diff:         I  X    X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_tabii(aˤ:)=-8.8, tafkheem(tˤtˤ)=-5.2
+2026-10-12 15:25:45,717 text = وَٱلْقَمَرَ قَدَّرْنَـٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ, (surah,ayah) = [(36, 39)] via API=match_text
+2026-10-12 15:25:45,730 [tlog_holdout:tlog_holdout/36_39_8040619749] dur=8.98s | feat 12.0 + fwd 117.1 + dec 0.17 = infer 129.3 ms (RTF 0.0144) | gop 25.0 ms | hyp=54 tok PER=0.320 | GOP ref=-0.734 self=0.000 flagged(ref)=0.140
+2026-10-12 15:25:45,734 [tlog_holdout:tlog_holdout/36_39_8040619749] expected vs inferred
+  expected text    : وَٱلْقَمَرَ قَدَّرْنَـٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ
+  expected phonemes: w a l q aˤ m a rˤ aˤ q aˤ dd a rˤ n a: h u m a n a: z i l a ħ a tt a: ʕ a: d a k a l ʕ u rˤ ʒ u: n i l q aˤ d i: m
+  inferred phonemes: i w a j a q aˤ m a l a q aˤ dd a l n a: h u m a n ð i n a h a tt a: ʕ a d a ŋ k a l i ʕ u l ʒ u: n h i l x aˤ d i: m
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 39 match, 10 substituted, 1 missing (expected but not recited), 5 inserted
+  EXP : - w   a   - l    q   aˤ  m   a   rˤ   aˤ   q   aˤ  dd 
+  GOT : i w   a   j a    q   aˤ  m   a   l    a    q   aˤ  dd 
+  GOP :   0.0 0.0   -1.5 0.0 0.0 0.0 0.0 -2.8 -5.8 0.0 0.0 0.0
+  diff: I         I X                    X    X
+  EXP : a   rˤ   n   a:  h   u   m   a   n   a:   z    i   l    a  
+  GOT : a   l    n   a:  h   u   m   a   n   -    ð    i   n    a  
+  GOP : 0.0 -4.9 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.7 -0.3 0.0 -0.3 0.0
+  diff:     X                                D    X        X
+  EXP : ħ    a   tt  a:  ʕ   a:    d   a   - k   a   l   - ʕ  
+  GOT : h    a   tt  a:  ʕ   a     d   a   ŋ k   a   l   i ʕ  
+  GOP : -4.6 0.0 0.0 0.0 0.0 -13.0 0.0 0.0   0.0 0.0 0.0   0.0
+  diff: X                    X             I             I
+  EXP : u   rˤ   ʒ   u:  n   - i   l   q    aˤ  d   i:  m  
+  GOT : u   l    ʒ   u:  n   h i   l   x    aˤ  d   i:  m  
+  GOP : 0.0 -2.2 0.0 0.0 0.0   0.0 0.0 -0.6 0.0 0.0 0.0 0.0
+  diff:     X                I         X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_tabii(a:)=-13.0, tafkheem(rˤ)=-4.9, tafkheem(rˤ)=-2.8, tafkheem(rˤ)=-2.2
+2026-10-12 15:25:45,845 text = وَٱلشَّمْسِ وَضُحَىٰهَا, (surah,ayah) = [(91, 1)] via API=match_text
+2026-10-12 15:25:45,857 [tlog_holdout:tlog_holdout/91_1_6070327167] dur=5.39s | feat 5.3 + fwd 96.5 + dec 0.11 = infer 101.9 ms (RTF 0.0189) | gop 17.0 ms | hyp=23 tok PER=0.733 | GOP ref=-2.114 self=0.000 flagged(ref)=0.200
+2026-10-12 15:25:45,858 [tlog_holdout:tlog_holdout/91_1_6070327167] expected vs inferred
+  expected text    : وَٱلشَّمْسِ وَضُحَىٰهَا
+  expected phonemes: w a ʃʃ a m s i w a dˤ u ħ a: h a:
+  inferred phonemes: i: h u w a ʃʃ a m s i w a d u ħ a: q u w a l x aˤ
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 12 match, 3 substituted, 0 missing (expected but not recited), 8 inserted
+  EXP : -  - - w   a   ʃʃ  a   m   s   i   w   a   dˤ    u  
+  GOT : i: h u w   a   ʃʃ  a   m   s   i   w   a   d     u  
+  GOP :        0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -21.5 0.0
+  diff: I  I I                                     X
+  EXP : ħ   a:  - - - - - h    a:  
+  GOT : ħ   a:  q u w a l x    aˤ  
+  GOP : 0.0 0.0           -4.2 -6.0
+  diff:         I I I I I X    X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: tafkheem(dˤ)=-21.5, madd_tabii(a:)=-6.0
+2026-10-12 15:25:45,981 text = ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ, (surah,ayah) = [(102, 8)] via API=match_text
+2026-10-12 15:25:45,990 [tlog_holdout:tlog_holdout/102_8_5916463777] dur=7.49s | feat 11.5 + fwd 100.0 + dec 0.19 = infer 111.7 ms (RTF 0.0149) | gop 17.2 ms | hyp=33 tok PER=0.294 | GOP ref=-1.931 self=0.000 flagged(ref)=0.265
+2026-10-12 15:25:45,992 [tlog_holdout:tlog_holdout/102_8_5916463777] expected vs inferred
+  expected text    : ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ
+  expected phonemes: θ u m̃ a l a t u s ʔ a l u ñ a j a w m a ʔ i ð i n ʕ a n i ñ a ʕ i: m
+  inferred phonemes: θ u m̃ a l a t u s ʕ a m u: n a j a w m a ʔ i n i ŋ ħ a j n i ñ a ʕ
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 25 match, 7 substituted, 2 missing (expected but not recited), 1 inserted
+  EXP : θ   u   m̃  a   l   a   t   u   s   ʔ    a   l    u    ñ   
+  GOT : θ   u   m̃  a   l   a   t   u   s   ʕ    a   m    u:   n   
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -4.0 0.0 -1.4 -6.6 -9.8
+  diff:                                     X        X    X    X
+  EXP : a   j   a   w   m   a   ʔ   i   ð    i   n    ʕ    a   -
+  GOT : a   j   a   w   m   a   ʔ   i   n    i   ŋ    ħ    a   j
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -1.1 0.0 -6.1 -1.4 0.0  
+  diff:                                 X        X    X        I
+  EXP : n   i   ñ   a   ʕ   i:    m    
+  GOT : n   i   ñ   a   ʕ   -     -    
+  GOP : 0.0 0.0 0.0 0.0 0.0 -12.2 -23.0
+  diff:                     D     D
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_arid_lissukun(i:)=-12.2, noon_ghunnah(ñ)=-9.8
+2026-10-12 15:25:46,081 text = وَإِذَا ٱلْجِبَالُ سُيِّرَتْ, (surah,ayah) = [(81, 3)] via API=match_text
+2026-10-12 15:25:46,090 [tlog_holdout:tlog_holdout/81_3_4106618044] dur=3.53s | feat 3.6 + fwd 79.2 + dec 0.09 = infer 82.9 ms (RTF 0.0235) | gop 11.8 ms | hyp=20 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:46,091 [tlog_holdout:tlog_holdout/81_3_4106618044] expected vs inferred
+  expected text    : وَإِذَا ٱلْجِبَالُ سُيِّرَتْ
+  expected phonemes: w a ʔ i ð a l ʒ i b a: l u s u jj i rˤ aˤ t
+  inferred phonemes: w a ʔ i ð a l ʒ i b a: l u s u jj i rˤ aˤ t
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 20 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : w   a   ʔ   i   ð   a   l   ʒ   i   b   a:  l   u   s  
+  GOT : w   a   ʔ   i   ð   a   l   ʒ   i   b   a:  l   u   s  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   jj  i   rˤ  aˤ  t  
+  GOT : u   jj  i   rˤ  aˤ  t  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:46,192 text = وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَـٰثَ مِا۟ئَةٍ سِنِينَ وَٱزْدَادُوا۟ تِسْعًا, (surah,ayah) = [(18, 25)] via API=match_text
+2026-10-12 15:25:46,201 [tlog_holdout:tlog_holdout/18_25_8673532835] dur=5.19s | feat 6.2 + fwd 83.5 + dec 0.11 = infer 89.8 ms (RTF 0.0173) | gop 15.1 ms | hyp=46 tok PER=0.224 | GOP ref=-0.560 self=0.000 flagged(ref)=0.163
+2026-10-12 15:25:46,203 [tlog_holdout:tlog_holdout/18_25_8673532835] expected vs inferred
+  expected text    : وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَـٰثَ مِا۟ئَةٍ سِنِينَ وَٱزْدَادُوا۟ تِسْعًا
+  expected phonemes: w a l a b i θ u: f i: k a h f i h i m θ a l a: θ a m i ʔ a t i ŋ s i n i: n a w a z d a: d u: t i s ʕ a:
+  inferred phonemes: w a l a b i θ u u: ħ i k a f h i m θ a l a: θ a m i ʔ a t i ŋ s i m n a w u d a: d u ʃ i s ʕ a:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 39 match, 6 substituted, 4 missing (expected but not recited), 1 inserted
+  EXP : w   a   l   a   b   i   θ   - u:  f    i:   k   a   h   
+  GOT : w   a   l   a   b   i   θ   u u:  ħ    i    k   a   -   
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0   0.0 -1.2 -4.3 0.0 0.0 -7.8
+  diff:                             I     X    X            D
+  EXP : f   i    h   i   m   θ   a   l   a:  θ   a   m   i   ʔ  
+  GOT : f   -    h   i   m   θ   a   l   a:  θ   a   m   i   ʔ  
+  GOP : 0.0 -2.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff:     D
+  EXP : a   t   i   ŋ   s   i   n    i:   n   a   w   a    z    d  
+  GOT : a   t   i   ŋ   s   i   -    m    n   a   w   -    u    d  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 -1.9 -3.1 0.0 0.0 0.0 -0.1 -0.1 0.0
+  diff:                         D    X                D    X
+  EXP : a:  d   u:   t    i   s   ʕ   a: 
+  GOT : a:  d   u    ʃ    i   s   ʕ   a: 
+  GOP : 0.0 0.0 -3.7 -2.8 0.0 0.0 0.0 0.0
+  diff:         X    X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_tabii(i:)=-4.3, madd_tabii(u:)=-3.7, madd_tabii(i:)=-3.1
+2026-10-12 15:25:46,315 text = قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ, (surah,ayah) = [(37, 18)] via API=match_text
+2026-10-12 15:25:46,322 [tlog_holdout:tlog_holdout/37_18_879489272] dur=4.37s | feat 4.5 + fwd 99.5 + dec 0.10 = infer 104.1 ms (RTF 0.0238) | gop 11.2 ms | hyp=23 tok PER=0.000 | GOP ref=0.000 self=0.000 flagged(ref)=0.000
+2026-10-12 15:25:46,323 [tlog_holdout:tlog_holdout/37_18_879489272] expected vs inferred
+  expected text    : قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ
+  expected phonemes: q u l n a ʕ a m w a ʔ a ŋ t u m d a: x i rˤ u: n
+  inferred phonemes: q u l n a ʕ a m w a ʔ a ŋ t u m d a: x i rˤ u: n
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 23 match, 0 substituted, 0 missing (expected but not recited), 0 inserted
+  EXP : q   u   l   n   a   ʕ   a   m   w   a   ʔ   a   ŋ   t  
+  GOT : q   u   l   n   a   ʕ   a   m   w   a   ʔ   a   ŋ   t  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+  EXP : u   m   d   a:  x   i   rˤ  u:  n  
+  GOT : u   m   d   a:  x   i   rˤ  u:  n  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: 
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+2026-10-12 15:25:46,465 text = فَقَدْ كَذَّبُوكُم بِمَا تَقُولُونَ فَمَا تَسْتَطِيعُونَ صَرْفًا وَلَا نَصْرًا ۚ وَمَن يَظْلِم مِّنكُمْ نُذِقْهُ عَذَابًا كَبِيرًا, (surah,ayah) = [(25, 19)] via API=match_text
+2026-10-12 15:25:46,484 [tlog_holdout:tlog_holdout/25_19_6342723912] dur=10.00s | feat 10.7 + fwd 109.8 + dec 0.11 = infer 120.6 ms (RTF 0.0121) | gop 31.8 ms | hyp=75 tok PER=0.359 | GOP ref=-6.452 self=0.000 flagged(ref)=0.391
+2026-10-12 15:25:46,491 [tlog_holdout:tlog_holdout/25_19_6342723912] expected vs inferred
+  expected text    : فَقَدْ كَذَّبُوكُم بِمَا تَقُولُونَ فَمَا تَسْتَطِيعُونَ صَرْفًا وَلَا نَصْرًا ۚ وَمَن يَظْلِم مِّنكُمْ نُذِقْهُ عَذَابًا كَبِيرًا
+  expected phonemes: f a q aˤ d Q k a ðð a b u: k u ŋ b i m a: t a q u: l u: n a f a m a: t a s t a tˤ i: ʕ u: n a sˤ aˤ rˤ f a w̃ a l a: n a sˤ rˤ aˤ w̃ a m a j̃ a ðˤ l i m̃ i ŋ k u m n u ð i q Q h u ʕ a ð a: b a ŋ k a b i: rˤ aˤ:
+  inferred phonemes: ʔ u b i m a: t a q u: ʒ u: n a f a m a t a s t a tˤ i: u: n a sˤ aˤ rˤ a w̃ a l a n u sˤ rˤ aˤ k w a m a j̃ a ðˤ l i m̃ i ŋ k u m ð i tˤ rˤ aˤ ʕ ð a: b a ŋ k a b rˤ aˤ m a:
+  (the model outputs phonemes only; the phoneme->Arabic is not implemented yet)
+  alignment: 61 match, 12 substituted, 19 missing (expected but not recited), 2 inserted
+  EXP : f    a    q    aˤ   d     Q     k     a     ðð    a     b     u:    k     u    
+  GOT : -    -    -    -    -     -     -     -     -     -     -     -     ʔ     u    
+  GOP : -3.1 -1.7 -4.3 -9.5 -27.3 -66.1 -21.8 -16.0 -22.5 -12.0 -39.1 -95.1 -22.2 -16.5
+  diff: D    D    D    D    D     D     D     D     D     D     D     D     X
+  EXP : ŋ     b     i     m     a:    t     a     q     u:   l     u:  n   a   f  
+  GOT : -     b     i     m     a:    t     a     q     u:   ʒ     u:  n   a   f  
+  GOP : -29.5 -20.4 -13.6 -15.6 -22.8 -26.9 -22.7 -10.4 -3.8 -22.8 0.0 0.0 0.0 0.0
+  diff: D                                                    X
+  EXP : a   m   a:   t   a   s   t   a   tˤ  i:  ʕ    u:  n   a  
+  GOT : a   m   a    t   a   s   t   a   tˤ  i:  -    u:  n   a  
+  GOP : 0.0 0.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -2.4 0.0 0.0 0.0
+  diff:         X                                D
+  EXP : sˤ  aˤ  rˤ  f    a   w̃  a   l   a:   n   a    sˤ  rˤ  aˤ 
+  GOT : sˤ  aˤ  rˤ  -    a   w̃  a   l   a    n   u    sˤ  rˤ  aˤ 
+  GOP : 0.0 0.0 0.0 -2.8 0.0 0.0 0.0 0.0 -9.7 0.0 -3.7 0.0 0.0 0.0
+  diff:             D                    X        X
+  EXP : - w̃   a   m   a   j̃  a   ðˤ  l   i   m̃  i   ŋ   k  
+  GOT : k w    a   m   a   j̃  a   ðˤ  l   i   m̃  i   ŋ   k  
+  GOP :   -2.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+  diff: I X
+  EXP : u   m   n    u    ð   i   q    Q    h    u    ʕ   a    ð   a: 
+  GOT : u   m   -    -    ð   i   -    tˤ   rˤ   aˤ   ʕ   -    ð   a: 
+  GOP : 0.0 0.0 -4.3 -2.6 0.0 0.0 -0.8 -1.0 -6.7 -3.6 0.0 -2.0 0.0 0.0
+  diff:         D    D            D    X    X    X        D
+  EXP : b   a   ŋ   k   a   b   -  i:   rˤ  aˤ: 
+  GOT : b   a   ŋ   k   a   b   rˤ aˤ   m   a:  
+  GOP : 0.0 0.0 0.0 0.0 0.0 0.0    -0.1 0.0 -3.2
+  diff:                         I  X    X   X
+        (X substituted, D missing, I inserted; GOP < -1.0 means the expected phoneme lost to another label)
+  flagged tajweed rules: madd_tabii(u:)=-95.1, qalqala_sughra(dQ)=-66.1, ikhfaa_shafawi(ŋ)=-29.5, madd_tabii(a:)=-22.8, tafkheem(q)=-10.4, madd_tabii(a:)=-9.7, tafkheem(q)=-4.3, madd_tabii(u:)=-3.7
